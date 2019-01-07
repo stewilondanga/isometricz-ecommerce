@@ -110,14 +110,15 @@ b, .product {
   -webkit-clip-path: polygon(0% 0%, 100% 33.333%, 100% 33.33%, 0% 0%, 0% 0%);
 }
 
-/*.product>.details>h2 {
+.product>.details>h2 {
   opacity: 0;
   margin-top: 35%;
   margin-bottom: 0;
   transform: skewY(-30deg);
   font-size: 3vw;
 }
-.product>.details>p {
+
+/*.product>.details>p {
   opacity: 0;
   margin-top: 0;
   transform: skewY(-30deg);
