@@ -113,9 +113,9 @@ function startAnim() {
     }
   }
 };
-/*
-    window.onresize = function(){
-      resizeGrid();
-    }
 
-    window.onload = addSpacers();
+window.onresize = function() {
+  resizeGrid();
+}
+
+window.onload = addSpacers();
