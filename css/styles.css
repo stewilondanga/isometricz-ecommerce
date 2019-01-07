@@ -68,17 +68,18 @@ b, .product {
   display: none;
 }
 
-/*.product>.photo>img {
-  position:absolute;
+.product>.photo>img {
+  position: absolute;
   bottom: -10%;
   left: 19%;
   max-width: 62%;
-  -webkit-filter: drop-shadow(0 50px 20px  rgba(0, 0, 0, 0.20));
+  -webkit-filter: drop-shadow(0 50px 20px rgba(0, 0, 0, 0.20));
   filter: drop-shadow(0 50px 20px rgba(0, 0, 0, 0.20));
   transition-property: bottom, filter, -webkit-filter;
   transition-duration: .3s;
 }
-.product>.photo>img:hover {
+
+/*.product>.photo>img:hover {
   bottom: 0%;
   -webkit-filter: drop-shadow(0 80px 40px  rgba(0, 0, 0, 0.20));
   filter: drop-shadow(0 80px 30px rgba(0, 0, 0, 0.20));
