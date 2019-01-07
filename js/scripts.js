@@ -13,9 +13,9 @@ var productsShown;
 var spacers;
 var nPerRow;
 var rowHeight;
-/*var closedRowHeight;
+var closedRowHeight;
 
-function addSpacers(){
+/*function addSpacers(){
   for(var i=1; i<=products.length; i++){
     var node = document.createElement("b");
     node.style.gridRow = i;
