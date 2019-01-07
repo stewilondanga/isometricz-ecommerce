@@ -196,21 +196,25 @@ b, .product {
   }
 }
 
-/*@media (min-width:1500px) {
-  #productGrid{
-    grid-template-columns: repeat(11,1fr);
+@media (min-width:1500px) {
+  #productGrid {
+    grid-template-columns: repeat(11, 1fr);
   }
-  b, .product{
+
+  b, .product {
     height: calc(173.2vw/11);
   }
+
   .product>.details>h2 {
     font-size: 1.3vw;
   }
+
   .product>.details>p {
     font-size: 2.6vw;
   }
 }
-@media (min-width:1800px) {
+
+/*@media (min-width:1800px) {
   #productGrid{
     grid-template-columns: repeat(13,1fr);
   }
