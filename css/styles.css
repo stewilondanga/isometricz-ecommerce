@@ -103,14 +103,14 @@ b, .product {
   -webkit-clip-path: polygon(0% 33.333%, 100% 0%, 100% 0%, 0% 33.33%, 0% 0%);
 }
 
-/*.product>.logo, #productGrid > b:nth-child(2n){
+.product>.logo, #productGrid>b:nth-child(2n) {
   background-color: #C9E0D6;
   background-image: linear-gradient(to bottom left, #CDE2D9, #B7CCC3);
   clip-path: polygon(0% 0%, 100% 33.333%, 100% 33.33%, 0% 0%, 0% 0%);
   -webkit-clip-path: polygon(0% 0%, 100% 33.333%, 100% 33.33%, 0% 0%, 0% 0%);
 }
 
-.product>.details>h2 {
+/*.product>.details>h2 {
   opacity: 0;
   margin-top: 35%;
   margin-bottom: 0;
