@@ -63,15 +63,15 @@ function resizeGrid() {
   }
 }
 
-/*  function startAnim() {
-    var details = document.getElementsByClassName('details');
-    var logos = document.getElementsByClassName('logo');
-    var photos = document.getElementsByClassName('photo');
-    var count = 0;
-    var wait = setInterval(delay, 500);
-    var openSteps = 25;
-    var revealSteps = 10;
-    function delay() {
+function startAnim() {
+  var details = document.getElementsByClassName('details');
+  var logos = document.getElementsByClassName('logo');
+  var photos = document.getElementsByClassName('photo');
+  var count = 0;
+  var wait = setInterval(delay, 500);
+  var openSteps = 25;
+  var revealSteps = 10;
+  /*  function delay() {
       var anim = setInterval(frame, 10);
       clearInterval(wait);
     }
