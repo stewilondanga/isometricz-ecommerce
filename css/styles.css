@@ -33,14 +33,14 @@ h3 {
   font-size: 1em;
 }
 
-/*#productGrid {
+#productGrid {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   width: 100%;
   overflow: hidden;
 }
 
-#productGrid > b:nth-child(2n){
+/*#productGrid > b:nth-child(2n){
   grid-column: 1;
 }
 
