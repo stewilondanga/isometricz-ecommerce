@@ -55,11 +55,11 @@ h3 {
   position: relative;
 }
 
-/*b, .product{
+b, .product {
   height: calc(173.2vw/3);
 }
 
-.product>.photo {
+/*.product>.photo {
   grid-column: 1;
   grid-row: 1;
   grid-column-end: span 2;
