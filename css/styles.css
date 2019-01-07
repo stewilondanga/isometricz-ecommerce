@@ -79,13 +79,13 @@ b, .product {
   transition-duration: .3s;
 }
 
-/*.product>.photo>img:hover {
+.product>.photo>img:hover {
   bottom: 0%;
-  -webkit-filter: drop-shadow(0 80px 40px  rgba(0, 0, 0, 0.20));
+  -webkit-filter: drop-shadow(0 80px 40px rgba(0, 0, 0, 0.20));
   filter: drop-shadow(0 80px 30px rgba(0, 0, 0, 0.20));
 }
 
-.product>.details {
+/*.product>.details {
   grid-column: 1;
   grid-row: 1;
   padding: 5%;
