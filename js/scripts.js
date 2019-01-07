@@ -15,8 +15,8 @@ var nPerRow;
 var rowHeight;
 var closedRowHeight;
 
-/*function addSpacers(){
-  for(var i=1; i<=products.length; i++){
+function addSpacers() {
+  for (var i = 1; i <= products.length; i++) {
     var node = document.createElement("b");
     node.style.gridRow = i;
     grid.appendChild(node);
@@ -25,7 +25,7 @@ var closedRowHeight;
   startAnim();
 }
 
-function resizeGrid(){
+/*function resizeGrid(){
   var w = window.innerWidth;
   if(w<600) {
     nPerRow=1;
