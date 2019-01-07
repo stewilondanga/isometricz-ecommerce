@@ -214,21 +214,25 @@ b, .product {
   }
 }
 
-/*@media (min-width:1800px) {
-  #productGrid{
-    grid-template-columns: repeat(13,1fr);
+@media (min-width:1800px) {
+  #productGrid {
+    grid-template-columns: repeat(13, 1fr);
   }
-  b, .product{
+
+  b, .product {
     height: calc(173.2vw/13);
   }
+
   .product>.details>h2 {
     font-size: 1.1vw;
   }
+
   .product>.details>p {
     font-size: 2.2vw;
   }
 }
-@media (min-width:2100px) {
+
+/*@media (min-width:2100px) {
   #productGrid{
     grid-template-columns: repeat(15,1fr);
   }
