@@ -11,8 +11,8 @@ var grid = document.getElementById("productGrid");
 var products = document.getElementById("productGrid").getElementsByTagName("li");
 var productsShown;
 var spacers;
-/*var nPerRow;
-var rowHeight;
+var nPerRow;
+/*var rowHeight;
 var closedRowHeight;
 
 function addSpacers(){
