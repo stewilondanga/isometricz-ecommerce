@@ -125,7 +125,7 @@ b, .product {
   font-size: 6vw;
 }
 
-/*.product>.logo>img {
+.product>.logo>img {
   opacity: 0;
   position: absolute;
   max-width: 18%;
@@ -134,7 +134,7 @@ b, .product {
   transform: skewY(30deg);
 }
 
-@media (min-width:600px) {
+/*@media (min-width:600px) {
   #productGrid{
     grid-template-columns: repeat(5,1fr);
   }
