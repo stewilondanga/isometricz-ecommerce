@@ -59,7 +59,7 @@ b, .product {
   height: calc(173.2vw/3);
 }
 
-/*.product>.photo {
+.product>.photo {
   grid-column: 1;
   grid-row: 1;
   grid-column-end: span 2;
@@ -67,7 +67,8 @@ b, .product {
   text-align: center;
   display: none;
 }
-.product>.photo>img {
+
+/*.product>.photo>img {
   position:absolute;
   bottom: -10%;
   left: 19%;
