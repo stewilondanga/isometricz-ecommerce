@@ -232,22 +232,25 @@ b, .product {
   }
 }
 
-/*@media (min-width:2100px) {
-  #productGrid{
-    grid-template-columns: repeat(15,1fr);
+@media (min-width:2100px) {
+  #productGrid {
+    grid-template-columns: repeat(15, 1fr);
   }
-  b, .product{
+
+  b, .product {
     height: calc(173.2vw/15);
   }
+
   .product>.details>h2 {
     font-size: 0.95vw;
   }
+
   .product>.details>p {
     font-size: 1.6vw;
   }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
