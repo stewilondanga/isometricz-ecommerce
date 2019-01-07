@@ -91,12 +91,12 @@ b, .product {
   padding: 5%;
 }
 
-/*.product>.logo {
+.product>.logo {
   grid-column: 2;
   grid-row: 1;
 }
 
-.product>.details, #productGrid > b:nth-child(2n+1){
+/*.product>.details, #productGrid > b:nth-child(2n+1){
   background-color: #FFEFE5;
   background-image: linear-gradient(to bottom right, #FFF0E7, #E8DAD1);
   clip-path: polygon(0% 33.333%, 100% 0%, 100% 0%, 0% 33.33%, 0% 0%);
