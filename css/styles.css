@@ -85,12 +85,13 @@ b, .product {
   filter: drop-shadow(0 80px 30px rgba(0, 0, 0, 0.20));
 }
 
-/*.product>.details {
+.product>.details {
   grid-column: 1;
   grid-row: 1;
   padding: 5%;
 }
-.product>.logo {
+
+/*.product>.logo {
   grid-column: 2;
   grid-row: 1;
 }
