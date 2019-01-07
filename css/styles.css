@@ -96,14 +96,14 @@ b, .product {
   grid-row: 1;
 }
 
-/*.product>.details, #productGrid > b:nth-child(2n+1){
+.product>.details, #productGrid>b:nth-child(2n+1) {
   background-color: #FFEFE5;
   background-image: linear-gradient(to bottom right, #FFF0E7, #E8DAD1);
   clip-path: polygon(0% 33.333%, 100% 0%, 100% 0%, 0% 33.33%, 0% 0%);
   -webkit-clip-path: polygon(0% 33.333%, 100% 0%, 100% 0%, 0% 33.33%, 0% 0%);
 }
 
-.product>.logo, #productGrid > b:nth-child(2n){
+/*.product>.logo, #productGrid > b:nth-child(2n){
   background-color: #C9E0D6;
   background-image: linear-gradient(to bottom left, #CDE2D9, #B7CCC3);
   clip-path: polygon(0% 0%, 100% 33.333%, 100% 33.33%, 0% 0%, 0% 0%);
